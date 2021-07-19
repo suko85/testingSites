@@ -1,0 +1,30 @@
+{
+  "name": "testingsites",
+  "version": "1.0.0",
+  "description": "testing websites with cypress",
+  "main": "index.js",
+  "dependencies": {
+    "cypress": "^7.7.0",
+    "faker": "^5.5.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/suko85/testingSites.git"
+  },
+  "keywords": [
+    "QA",
+    "Automation",
+    "Cypress",
+    "Testing"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/suko85/testingSites/issues"
+  },
+  "homepage": "https://github.com/suko85/testingSites#readme"
+}
