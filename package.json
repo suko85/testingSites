@@ -4,7 +4,7 @@
   "description": "testing websites with cypress",
   "main": "index.js",
   "dependencies": {
-    "cypress": "^7.7.0",
+    "cypress": "^8.0.0",
     "faker": "^5.5.3"
   },
   "devDependencies": {},

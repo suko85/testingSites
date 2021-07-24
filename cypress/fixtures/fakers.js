@@ -1,5 +1,6 @@
 
     const faker = require('faker');
+    //const faker = require('faker/locale/ru'); < --- you can localized data in specific languages
 
     let emailAddress = faker.internet.email();
     let firstName  = faker.name.firstName();
