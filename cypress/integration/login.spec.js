@@ -47,5 +47,11 @@ describe('Login in the website', () => {
 
     })
 
+    it('successful login and logout', () => {
+        cy.loginToApplication()
+        cy.get('.logout').click()
+        cy.get('.login').should('contain', 'Sign in')
+    })
+
 
 })

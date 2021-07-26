@@ -39,6 +39,13 @@ Cypress.Commands.add('loginToApplication', () => {
         .parents('form')
         .find('#SubmitLogin').click()
 
+    //verifying the logged user
+    cy.get('.account')
+    .parents('div')
+    .find('span')
+    .should('contain', 'Suko Gomez') 
+    
+    //verifying text after login   
     cy.get('.info-account').should('contain', 'Welcome to your account.')
 
 })
